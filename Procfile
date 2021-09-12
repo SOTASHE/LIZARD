@@ -1,5 +1,6 @@
-web: gunicorn creativelizard.wsgi
-
+web: gunicorn creativelizard.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
 
 
 
