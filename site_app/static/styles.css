@@ -337,11 +337,11 @@ html {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(11, 8, 24);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(40, 41, 99);
 }
 
 /* all similar content styling codes */
@@ -424,7 +424,7 @@ section .title::after {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: #555;
+  color: rgb(20, 33, 220);
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -443,7 +443,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .logo a:hover {
-  color: #1966b8;
+  color: rgb(20, 33, 220);
 }
 .navbar .menu li a:hover {
   color: #1966b8;
