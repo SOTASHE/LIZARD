@@ -17,7 +17,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['creative-l.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
