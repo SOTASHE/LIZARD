@@ -9,6 +9,7 @@ django-tinymce==3.3.0
 gunicorn==20.1.0
 heroku==0.1.4
 idna==3.2
+psycopg2==2.9.1
 psycopg2-binary==2.9.1
 pycodestyle==2.7.0
 python-dateutil==1.5
