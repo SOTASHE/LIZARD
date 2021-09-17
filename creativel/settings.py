@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-import django_heroku
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-zl)*t3dm%!45y25fn^ov%a==a2c6z6=#7f@qwq0txc2r&*9d*&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['creative-l.herokuapp.com']
+ALLOWED_HOSTS = ['creativel.herokuapp.com']
 
 # Application definition
 
@@ -27,7 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'site_app',
-    'tinymce',
+    
 ]
 
 MIDDLEWARE = [
@@ -42,7 +42,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'creativelizard.urls'
+ROOT_URLCONF = 'creativel.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'creativelizard.wsgi.application'
+WSGI_APPLICATION = 'creativel.wsgi.application'
 
 
 # Database
@@ -117,7 +117,8 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/images/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
@@ -130,7 +131,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Activate Django-Heroku.
-django_heroku.settings(locals())
+
 
 import dj_database_url 
 prod_db  =  dj_database_url.config(conn_max_age=500)

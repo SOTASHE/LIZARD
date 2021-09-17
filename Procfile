@@ -1,4 +1,4 @@
-web: gunicorn creativelizard.wsgi --log-file=-
+web: gunicorn creativel.wsgi --log-file -
 
 
 

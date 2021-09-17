@@ -6,5 +6,5 @@ from site_app.views import home
 
 urlpatterns = [
     path(r'', home, name='homepage'),
-    path('tinymce/', include('tinymce.urls')),
+    
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
