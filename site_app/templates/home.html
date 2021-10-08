@@ -1,6 +1,4 @@
 
-
-
 {% load static %}
 
 
@@ -16,6 +14,27 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <link rel="stylesheet" href="style.css">
+
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="vendors/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/favicon/favicon-16x16.png">
+	<link rel="manifest" href="vendors/favicon/site.webmanifest">
+
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="vendors/css/fluid.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style1.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/media-query.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 crossorigin="anonymous">
@@ -49,121 +68,61 @@ crossorigin="anonymous"></script>
 
 
 
+
+
+
+
+
+
+
+
+
      <link rel="shortcut icon" type="image/jpg" href="{% static 'icon.jpg' %}"/>
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 
 
 
     <link rel="stylesheet" href="{% static 'scripts.js' %}">
-</head>
-<body>
 
 
 
  <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar">
-        <div class="max-width">
- 
-          
-                
 
-                  
-                <a href="#skills">
-                  
-                   <div class="logo-image">
-             
-            <img src="{% static 'icon.svg'%}" class="img-fluid" >
-          </div>
-          
-            <div class="logo">
-                  
-                  Creative<span>lizard.</span></a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#skills" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
 
-                <li><a href="#our_work" class="menu-btn">Portfolio</a></li>
-                <li><a href="#package" class="menu-btn">Package</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-               
 
-            <li>  <a href="#">  <i class="fab fa-facebook-f"> </i> </a></li>
-             <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
-            <li> <a href="#"> <i class="fab fa-instagram"></i> </a></li>
-             
-               <li> <a href="#"><i class="fab fa-linkedin"></i></a></li>
+<header id="home">
+	<nav>
+    
+		<img class="logo-image"    src="{% static 'icon.svg' %}"alt="Digisolve Logo" class="logo" > 
               
-
-
-            </ul>
-           
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
-
-  <!-- home section start -->
-
-
- <!-- home section start -->
- <section class="home" id="home">
-
-
-  <div class="max-width">
-      <div class="home-content">
+		<ul class="main-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                   <li><a href="#team" >crew</a></li>
 
 
 
-
-
-
-
-<div class="wrapper">
-
-
-      <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-
-
-
-<div class="text-1">A full-service app / software developer</div>
-                <div class="text-2">and digital creative agency.</div>
-                <div class="text-3">YOU HAVE A VISION. LET'S BRING IT TO LIFE. <span class="typing"></span></div>
-                <a href="#">Hire us</a>
-
-
-      </div>
-  </div>
-</section>
+		</ul>
+	</nav>
+	<div class="header-box">
+		<div class="header-text-box">
+			<h4> We Are CreativeLizard, A
+        Software Developer And Digital Creative Agency.</h4>
+			<h5>The one stop for all your digital solutions</h5>
+		</div>
+		<a href="#contact" class="btn btn-primary">Get a Quote Today!</a>
+	</div>
+</header>
 
 
 
 
 
-          <div class="row">
-          <div class="col-md-12">
-            <div class="card-body">
-                <h3 class="text-center phrase text-primary">"GREAT IDEAS HAVE THE POWER TO PROVOKE, INSPIRE AND ENERGIZE."</h3>
-          </div>
-          </div>
-          </div>
+
 
 
 
@@ -178,8 +137,9 @@ crossorigin="anonymous"></script>
                 <div class="text">About us</div>
                 <p>We are a team of master strategists, design prodigies, account gurus, quick-witted storytellers, obsessive-compulsive producers and tech wizards all working and playing in one creative space.
                     We know true collaboration creates a strong bond and brand. We thrive on open communication and believe clients deserve great creativity and great strategy..</p>
-
+<a href="#" class="btn btn-ghost">Read More</a>
             </div>
+            
             <div class="column right">
                 <div class="bars">
                     <div class="info">
@@ -250,6 +210,7 @@ crossorigin="anonymous"></script>
                    <p>We offer e-commerce and websites. Our custom built websites run on our best in class CMS. We will build
 portfolio-worthy, conversion-focused landing pages aligned with your marketing
 campaign or product launch.</p>
+ <a href="#" class="service-link">Read More...</a>
               </div>
                 <div class="col-md-3 text-center">
                   <div class="icon">
@@ -259,6 +220,7 @@ campaign or product launch.</p>
                   </div>
                           <p> We have a prowess for vision, organization, and competitive advantage. Our marketing strategist is committed to delivering marketing excellence.
                         From concept to completion, our marketing strategist and accounts manager guids our creative and strategies.</p>
+                         <a href="#" class="service-link">Read More...</a>
               </div>
                <div class="col-md-3 text-center">
                   <div class="icon">
@@ -269,6 +231,7 @@ campaign or product launch.</p>
 
                     <p> Our designs are sure to resonate with your target market - reaching your client's full potential. We deliver corporate designs with a flair and your
                         vision in mind.</p>
+                         <a href="#" class="service-link">Read More...</a>
               </div>
                 <div class="col-md-3 text-center">
                   <div class="icon">
@@ -278,6 +241,7 @@ campaign or product launch.</p>
                   </div>
                              <p>We develop apps for iOS and Android. We help you develop
 native apps, hybrid apps, and ReactNative apps depending on your business needs.</p>
+ <a href="#" class="service-link">Read More...</a>
               </div>
 
 
@@ -301,16 +265,16 @@ native apps, hybrid apps, and ReactNative apps depending on your business needs.
 
 <!-- teams section start -->
 <section class="teams" id="teams">
-  <div class="max-width">
+ 
       <h2 class="title">Our Team</h2>
       <div class="slider owl-carousel">
           <div class="card">
               <div class="box">
 
                   <img src="{% static 'profile-1.jpeg' %}" alt="">
-                  <div class="text">Hi!</div>
+                  <div class="text"></div>
                   <h1>Oluhle Hintsa</h1>
-                  <p>Co-Founder, Marketing Strategist & Account Manager.</p>
+                  <p>Co-Founder,Marketing Strategist & Account Manager.</p>
               </div>
               <div class="btn">
             <button>Read more</button>
@@ -361,7 +325,7 @@ native apps, hybrid apps, and ReactNative apps depending on your business needs.
           </div>
           </div>
       </div>
-  </div>
+ 
 
 
 </section>
@@ -412,8 +376,8 @@ recognize that your customers are real people. And so are we. We’re here to op
 a creative discussion about how to take you from where you are – to where you
 want to be.
                   </p>
-                   <div class="btn">
-            <button>Find out more</button>
+                  
+              <a href="#" class="btn btn-ghost">find out more</a>
           </div>
 
           </div>
@@ -424,49 +388,148 @@ want to be.
 
 
 
-<!-- Some of our work -->
-<section class="our_work" id="our_work">
+<section class="about-section js--about-section" id="more">
   <div class="max-width">
-      <h2 class="title">Our Work</h2>
-      <div class="slider owl-carousel">
-          <div class="card">
-              <div class="box">
+	<div class="row">
+		<div class="col span_1_of_2 about-box js--about-box">
+			<h2 class="about-heading">We Are Focused On Growing your Online presence</h2>
+			<p class="about-para">Our tried-and-true creative process makes design magic.We’ll turn your great ideas into a custom design you can’t get anywhere else. </p>
+			<p class="about-para">We work for you until you reach your goal!. </p>
+			<a href="#" class="btn btn-ghost">Get a Quote</a>
+		</div>
+		<div class="col span_1_of_2 about-box js--about-box">
+     
+			<img src=  "{%static 'lagos-techie-IgUR1iX0mqM-unsplash.jpg'%}" alt="Digisolve app on Laptop" class="laptop-image">
+		</div>
+	</div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="work-section">
+	<div class="row">
+		<h2 class="section-heading">Our Work</h2>
+		<h3 class="section-sub-heading">Some of our projects</h3>
+	</div>
+	<ul class="work-portfolio clearfix">
+		<li>
+			<figure class="portfolio-image">
 
                   <img src="{% static 'Mbuyiselo Vilakazi.gif'  %}" alt="">
+		
+				<p class="work-para">Mbuyiselo Vilakazi's website</p>
+			</figure>
+		</li>
+		<li>
+			<figure class="portfolio-image">
+				<img src="{% static 'BHM Attorneys.png'  %}"alt="">
+				<p class="work-para">BHM Attorneys website</p>
+			</figure>
+		</li>
+		<li>
+			<figure class="portfolio-image">
+			<img src="{% static 'mylogo.png'  %}" alt="">
+			<p class="work-para">Logo</p>
+			</figure>
+		</li>
+		<li>
+			<figure class="portfolio-image">
+				 <img src= "{% static 'dashboard.PNG'  %}" alt="">
+				<p class="work-para">CSIR</p>
+			</figure>
+		</li>
+	</ul>
+</section>
 
 
-              </div>
-          </div>
-          <div class="card">
-              <div class="box">
-                    <img src="{% static 'BHM Attorneys.png'  %}"alt="">
 
 
-              </div>
-          </div>
-          <div class="card">
-              <div class="box">
-                  <img src="{% static 'mylogo.jpg'  %}" alt="">
 
 
-              </div>
-          </div>
-          <div class="card">
-              <div class="box">
-                  <img src= "{% static 'dashboard.PNG'  %}" alt="">
-
-
-              </div>
-          </div>
-          <div class="card">
-              <div class="box">
-                  <img src="{% static 'logo.jpg'  %}" alt="">
-
-
-              </div>
-          </div>
+    <section class="partners-section">
+      <div class="max-width">
+      
+      <div class="row">
+        <h2 class="section-heading">Featured Clients</h2>
+        <h3 class="section-sub-heading">
+          We've worked with some of the best companies. Here are
+          some of our Amazing Partners
+        </h3>
       </div>
-  </div>
+      <div class="row">
+        <div class="col span_1_of_4">
+          <img
+            class="partner-logo"
+            src="{% static 'mylogo.png'  %}" alt=""
+          />
+        </div>
+        <div class="col span_1_of_4">
+          <img
+            class="partner-logo"
+            src="{% static 'BHM Attorneys.png'  %}"
+            alt="Brand Logo"
+          />
+        </div>
+        <div class="col span_1_of_4">
+          <img
+            class="partner-logo"
+            src="{% static 'Mbuyiselo Vilakazi.gif'  %}" 
+            alt="Brand Logo"
+          />
+        </div>
+       
+      </div>
+      </div>
+
+    </section>
+
+
+
+
+<section class="testimonials-section">
+  <div class="max-width">
+      <div class="row">
+        <h2 class="testimonial-heading">Our Testimonials</h2>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_3 testimonial-box">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </blockquote>
+          <cite
+            ><img src="{% static 'profile-4.jpeg' %}" alt=""/>Lungelo</cite
+          >
+        </div>
+        <div class="col span_1_of_3 testimonial-box">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </blockquote>
+          <cite
+            >                  <img src="{% static 'profile-1.jpeg' %}" alt=""/>Oluhle</cite
+          >
+        </div>
+        <div class="col span_1_of_3 testimonial-box">
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </blockquote>
+          <cite
+            ><img src="{% static 'profile-5.jpeg' %}" alt=""/>Mxolisi</cite
+          >
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+
+
 
 
 
@@ -476,27 +539,214 @@ want to be.
 <!------ get in touch------>
 
 
-<section id="package">
+
+    <section class="packages-section js--packages-section">
+      <div class="max-width" >
+      <div class="row">
+        <h2 class="packages-heading">Check out Our Most Popular Packages</h2>
+      </div>
+      <div class="row">
+        <div class="col span_1_of_3">
+          <div class="package-box">
+            <div>
+              <h4 class="package-heading">LOGO & BRAND IDENTITY PACK</h4>
+       
+              <p class="package-para">
+               our Business logo design acts as your company’s public face, it will communicate to others about the status and culture of the company. It is therefore important that your company logo design reflects your business accurately.
+                We believe in making professional Logo designs that stand the test of time.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><i class="fas fa-check small-icon"></i>Logo & business card</li>
+                <li>
+                  <i class="fas fa-check small-icon"></i> Letterhead & envelope
+
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Facebook & Twitter
+                  Marketing
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Facebook cover
+                </li>
+                
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Free quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3">
+          <div class="package-box">
+            <div>
+              <h4 class="package-heading">RESUMES</h4>
+              <p class="package-para">
+                Did you know that If your resume doesn’t meet a company’s ATS requirements, your application will likely be rejected before a hiring manager even gets to look at it?
+Applicant tracking systems (ATS) eliminate over 70% of applicants before their resume even reaches a hiring manager. We will help you beat the ATS and get that interview call.
+Our Resumes are internationally recognized and take the LinkedIn styles required by the ATS.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li><i class="fas fa-check small-icon"></i>customized Theme</li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Profile Image
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Single Page
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>PDF printable Format
+                </li>
+                
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Free quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3">
+          <div class="package-box js--enterprise">
+            <div>
+              <h4 class="package-heading">WEBSITE DESIGN & DEVELOPMENT</h4>
+              <p class="package-price">
+              <p class="package-para">
+                Unite Beauty and Function to Achieve Your Goals
+In nature, design and utility routinely come together to create amazing, breathtaking results. Your website should do exactly the same.
+At CreativeLizard, we specialize in both. But we are adamant believers in function first. Because when it comes to your business, your site has to engage visitors.
+              </p>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  
+
+
+                  <i class="fas fa-check small-icon"></i>Web Design
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Web Hosting
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Domain Names
+                  
+                </li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>E-commerce Online Stores
+                </li>
+            
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Free quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="s1">
+      <div class="main-container">
+        <h3 style="text-align: center">OUR LATEST BLOG</h3>
+
+        <div class="post-wrapper">
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="{% static '1.jpg' %}"/>
+              <div class="post-preview">
+                <h6 class="post-title"> How to Search Engine Optimize Your  web Content</h6>
+                <p class="post-intro">
+                Search engine optimization, or SEO, is incredibly important for marketers...
+                </p>
+                <a href="#contact">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="{% static '2.jpg' %}" />
+              <div class="post-preview">
+                <h6 class="post-title">The basics of search engine optimization</h6>
+                <p class="post-intro">
+                  Ever heard of Maslow's hierarchy of needs? It's a theory of psychology that prioritizes the most fundamental human needs (like air,
+                   water, and physical safety) over more advanced needs (like esteem and social belonging...
+                </p>
+                <a href="#contact">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="post">
+              <img class="thumbnail" src="{% static '3.jpg' %}"/>
+              <div class="post-preview">
+                <h6 class="post-title">Object-Oriented Programming in Python – The Best Resources</h6>
+                <p class="post-intro">
+                      These are the topics that come the most on Software Engineering Job interviews...              
+                </p>
+                <a href="#contact">Read More</a>
+              </div>
+            </div>
+          </div>
+           <div>
+            <div class="post">
+              <img class="thumbnail" src="{% static '4.jpg' %}"/>
+              <div class="post-preview">
+                <h6 class="post-title">How Much Does It Cost To Build A Mobile App?</h6>
+                <p class="post-intro">
+                  Mobile apps are convenient pieces of software that people can access from a mobile device.
+                   Having one for your company, or building one to sell as a....
+                </p>
+                <a href="#contact">Read More</a>
+              </div>
+            </div>
+          </div>
+           <div>
+            <div class="post">
+              <img class="thumbnail" src="{% static '5.jpg' %}"/>
+              <div class="post-preview">
+                <h6 class="post-title">How to design an ATS-friendly Resume</h6>
+                <p class="post-intro">
+                  An ATS (Applicant Tracking System) is software used by companies to help them quickly evaluate potential candidates
+                   for any given job opening.
+                </p>
+                <a href="#contact">Read More</a>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </section>
+
+
   
 
-		
-	
-  <div class="container">
-
-
-  
-		
-
-
-
-    <div class="title"> View our</div>
-    <a href="#" class="btn btn-primary">Packages</a>
-
-
-  </div>
-</section>
-
- {% include "animation.html" %}
+ 
 
 <section id="contact">
 
@@ -516,7 +766,7 @@ want to be.
 
 
   <div class ="contains">
-<h2 class="title">Get In Touch</h2>
+<h2 class="title">Get In Touch, We will be happy to hear from you</h2>
 
   <div class="row">
 <div class="col-md-6">
@@ -675,10 +925,10 @@ cursor.style.top= (e.pageY-25)+"px";
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 
-
+-->
 
 
 <script src="{% static 'scripts.js' %}"></script>
@@ -691,7 +941,7 @@ cursor.style.top= (e.pageY-25)+"px";
 <!-- MDB -->
 <script
 type="text/javascript"
-src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+
 ></script>
 
 
@@ -700,11 +950,43 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
 
 <!-- footer section start -->
 
-<section id="footer">
-        <div class="container text-center">
+
+
+<footer>
+	<div class="row">
+		<div class="col span_1_of_2">
+			<ul class="footer-nav">
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Help & Support</a></li>
+				<li><a href="#">iOS App</a></li>
+				<li><a href="#">Android App</a></li>
+			</ul>
+		</div>
+		<div class="col span_1_of_2">
+			<ul class="social-links">
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+     <div class="container text-center">
         <span> Made with <i class="fas fa-heart"></i> By <a href="https://www.creativelizard.co.za">CreativeLizard</a> |</p><span class="far fa-copyright"></span> 2021 All rights reserved.</span>
      </div>
-</section>
+
+	</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+
 
 
 
@@ -713,3 +995,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
 
 
 </html>
+
+
+
+
