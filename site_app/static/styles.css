@@ -94,9 +94,6 @@ section .title::after {
   border-bottom: 2px solid #1da1f2;
 }
 
-.logo {
-}
-
 /*** HEADER SECTION ****/
 
 header {
@@ -235,8 +232,7 @@ header {
 /* home section styling */
 
 /* about section styling */
-.about .title::after {
-}
+
 .about .about-content .left {
   width: 45%;
 }
@@ -337,8 +333,7 @@ header {
 .skills {
   background: #efefef;
 }
-.skills .title::after {
-}
+
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
