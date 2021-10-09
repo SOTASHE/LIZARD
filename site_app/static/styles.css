@@ -137,9 +137,8 @@ header {
 
 .main-nav li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 10px;
   text-transform: uppercase;
-  margin-right: 5px;
 }
 
 .main-nav li a:link,
@@ -185,11 +184,11 @@ header {
 
 .sticky-nav .logo-image {
   height: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .sticky-nav .main-nav {
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
 .sticky-nav .main-nav li a:link,
