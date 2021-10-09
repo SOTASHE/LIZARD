@@ -57,8 +57,8 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
   font-family: "Ubuntu", sans-serif;
 }
 section .title::before {
@@ -1476,7 +1476,7 @@ nav .main-nav li a {
   transition: color 0.3s ease;
 }
 
-.post-wrapper {
+.project--wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
@@ -1484,31 +1484,57 @@ nav .main-nav li a {
   padding-bottom: 50px;
 }
 
-.post {
-  border: 1px solid var(--borderColor);
-  -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
-}
-
-.thumbnail {
+.project--thumbnail {
   display: block;
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-.post-preview {
-  background-color: #fff;
-  padding: 15px;
+.project--body {
+  background-color: #f6f6f6;
+  padding: 1em;
 }
 
-.post-title {
-  color: black;
-  margin: 0;
+.container#blog {
+  background-color: #fcfcfc;
 }
 
-.post-intro {
-  color: #4b5156;
-  font-size: 14px;
+/****  SERVICES SECTION ****/
+
+.strategy-section {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+
+.strategy-box {
+  padding: 1% 2%;
+}
+
+.big-icon {
+  font-size: 250%;
+  color: #00aced;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.strategy-heading {
+  font-size: 120%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.strategy-para {
+  color: #555;
+  font-size: 90%;
+  margin-bottom: 20px;
+}
+
+.strategy-link {
+  color: #007bff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
