@@ -169,7 +169,8 @@ header {
   width: auto;
   float: left;
   margin-top: 40px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 
 .sticky-nav {
