@@ -76,7 +76,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: #007bff;
+  color: #1da1f2;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -91,7 +91,7 @@ section .title::after {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #1da1f2;
 }
 
 .logo {
@@ -151,7 +151,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #1da1f2;
 }
 
 .sticky-nav {
@@ -208,7 +208,7 @@ header {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: #007bff;
+  background: #1da1f2;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -255,25 +255,25 @@ header {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: #007bff;
+  color: #1da1f2;
 }
 .about .about-content .right p {
   text-align: justify;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: #007bff;
+  background: #1da1f2;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #007bff;
+  border: 2px solid #1da1f2;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: #007bff;
+  color: #1da1f2;
   background: none;
 }
 /* services section styling */
@@ -297,7 +297,7 @@ header {
 
 #services h1::after {
   content: "";
-  background: #007bff;
+  background: #1da1f2;
   display: block;
   height: 3px;
   width: 170px;
@@ -328,7 +328,7 @@ header {
 }
 
 .services .col-md-3:hover {
-  background: #007bff;
+  background: #1da1f2;
   cursor: pointer;
   transition: 0.7s;
 }
@@ -352,18 +352,18 @@ header {
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: #007bff;
+  background: #1da1f2;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #007bff;
+  border: 2px solid #1da1f2;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: #007bff;
+  color: #1da1f2;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -391,7 +391,7 @@ header {
   height: 100%;
   left: 0;
   top: 0;
-  background: #007bff;
+  background: #1da1f2;
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -430,7 +430,7 @@ header {
   transition: all 0.3s ease;
 }
 .teams .slider .card:hover {
-  background: #007bff;
+  background: #1da1f2;
 }
 .teams .slider .card .box {
   display: flex;
@@ -452,7 +452,7 @@ header {
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #007bff;
+  border: 5px solid #1da1f2;
   transition: all 0.3s ease;
 }
 .teams .slider .card:hover img {
@@ -468,7 +468,7 @@ header {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid #007bff !important;
+  border: 2px solid #1da1f2 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -477,7 +477,7 @@ header {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: #007bff !important;
+  background: #1da1f2 !important;
 }
 
 .card .box .btn {
@@ -486,7 +486,7 @@ header {
   margin: 10px 0;
 }
 .card .btn button {
-  background: #007bff;
+  background: #1da1f2;
   color: #fff;
   border: none;
   outline: none;
@@ -635,7 +635,7 @@ header {
   text-align: center;
 }
 footer span a {
-  color: #007bff;
+  color: #1da1f2;
   text-decoration: none;
 }
 footer span a:hover {
@@ -726,7 +726,7 @@ section#more {
 
 .contact-info .fa {
   margin: 10px;
-  color: #007bff;
+  color: #1da1f2;
   font-weight: bold;
 }
 
@@ -773,25 +773,25 @@ input[type="submit"] {
 .btn-full:link,
 .btn-full:visited,
 input[type="submit"] {
-  background-color: #007bff;
+  background-color: #1da1f2;
   color: #fff;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type="submit"]:hover {
-  background-color: #007bff;
+  background-color: #1da1f2;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-  border: 2px solid #007bff;
-  color: #007bff;
+  border: 2px solid #1da1f2;
+  color: #1da1f2;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-  background-color: #007bff;
+  background-color: #1da1f2;
   color: #fff;
 }
 
@@ -876,7 +876,7 @@ footer {
 }
 
 .fa-google-plus-g:hover {
-  color: #007bff;
+  color: #1da1f2;
 }
 
 .fa-instagram:hover {
@@ -910,7 +910,7 @@ footer p {
   display: block;
   height: 2px;
   width: 100px;
-  background-color: #007bff;
+  background-color: #1da1f2;
   content: " ";
   margin: 30px auto 0 auto;
 }
@@ -1055,7 +1055,7 @@ cite img {
 }
 
 .package-price {
-  color: #007bff;
+  color: #1da1f2;
   font-size: 300%;
   font-weight: 300;
   margin-bottom: 10px;
@@ -1077,7 +1077,7 @@ cite img {
 }
 
 .small-icon {
-  color: #007bff;
+  color: #1da1f2;
   font-size: 120%;
   display: inline-block;
   margin-right: 10px;
@@ -1493,12 +1493,12 @@ nav .main-nav li a {
 }
 
 .project--body {
-  background-color: #f6f6f6;
+  background-color: #fff;
   padding: 1em;
 }
 
-.container#blog {
-  background-color: #fcfcfc;
+#blog {
+  background-color: #f1f1f1;
 }
 
 /****  SERVICES SECTION ****/
@@ -1535,7 +1535,82 @@ nav .main-nav li a {
 }
 
 .strategy-link {
-  color: #007bff;
+  color: #1da1f2;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* WORK PAGE */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.portfolio .item {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.portfolio .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .item .action {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.portfolio .item:hover .action {
+  opacity: 1;
+}
+
+.portfolio .item .action a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+}
+
+/* approache PAGE */
+.approaches {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.approaches .approache {
+  padding: 30px;
+}
+
+.approaches .approache:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.approaches .approache h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 100px;
+  color: var(--secondary-color);
+}
+
+.approaches .approache .icon {
+  max-width: 200px;
+  margin-top: 10px;
 }
